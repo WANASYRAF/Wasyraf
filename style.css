@@ -1,0 +1,141 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("images/1.jpg");
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 35px;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: #111;
+  }
+  
+  .active {
+    background-color: #534b27;
+  }
+
+  .Home_img{
+    position: absolute;
+    top: 200px;
+    right: 100px;
+    height: 85%;
+    width: 450px;
+}
+
+.headings1{
+    font-family: century;
+    font-size: 5rem;
+    padding-left: 50px;
+    color: rgb(0, 0, 0);
+    margin-top:300px;
+    
+}
+
+.button1 {
+    position: relative;
+    background-color: transparent;
+    color: rgb(14, 10, 10);
+    padding: 20px 30px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border: 2px solid #585858;
+    font-weight: bolder;
+    width: 500px;
+    left: 200px;
+    top: 50px;
+  }
+  
+  .button1:hover {
+    background-color: transparent;
+    color: rgb(131, 53, 8);
+    box-shadow: 0 0 10px rgb(185, 182, 182), 0 0 13px rgb(110, 105, 105), 0 0 17px rgb(122, 115, 115);
+  }
+
+footer{
+    background-color: black;
+    width: 111.7%;
+    top: 900px;
+    color: white;
+    margin-left: -150px;
+    position: absolute;
+}
+.footer-content{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: white;
+}
+.footer-content h3{
+    margin-top: 200px;
+    font-size: 1.8rem;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 3rem;
+}
+.footer-content p{
+    max-width: 600px;
+    margin: 10px auto;
+    line-height: 28px;
+    font-size: 14px;
+}
+
+.footer-bottom{
+    background-color: black;
+    padding: 20px 0;
+    text-align: center;
+}
+.footer-content p{
+    font-size: 14px;
+    word-spacing: 2px;
+    text-transform: capitalize;
+}
+.footer-bootom span{
+    text-transform: uppercase;
+    opacity: .4;
+    font-weight: 200;
+}
+
+.social-icon {
+  color: rgb(253, 251, 251);
+  transition: color 0.2s;
+  text-decoration: none;
+  font-size: 35px;
+}
+
+.social-icon:hover {
+  color: rgb(240, 236, 243);
+}
+
+a2 {
+    text-decoration: none;
+    font-size: 22px;
+    color: rgb(255, 255, 255);
+  }
